@@ -1,0 +1,76 @@
+DIGEST dcdef76e541b3246803f1485e3dce2d6
+FCausality.preliminaries
+prf 6:14 <> lt_irrefl
+R29:31 Coq.Init.Datatypes <> nat ind
+R34:35 Coq.Init.Logic <> :type_scope:'~'_x not
+R37:39 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R36:36 Causality.preliminaries <> n var
+R40:40 Causality.preliminaries <> n var
+prf 60:67 <> lt_trans
+R86:88 Coq.Init.Datatypes <> nat ind
+R96:99 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R105:108 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R110:112 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R109:109 Causality.preliminaries <> n var
+R113:113 Causality.preliminaries <> k var
+R101:103 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R100:100 Causality.preliminaries <> m var
+R104:104 Causality.preliminaries <> k var
+R92:94 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R91:91 Causality.preliminaries <> n var
+R95:95 Causality.preliminaries <> m var
+prf 133:143 <> le_lt_or_eq
+R160:162 Coq.Init.Datatypes <> nat ind
+R171:175 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R166:169 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R165:165 Causality.preliminaries <> n var
+R170:170 Causality.preliminaries <> m var
+R181:184 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R177:179 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R176:176 Causality.preliminaries <> n var
+R180:180 Causality.preliminaries <> m var
+R186:188 Coq.Init.Logic <> :type_scope:x_'='_x not
+R185:185 Causality.preliminaries <> n var
+R189:189 Causality.preliminaries <> m var
+prf 209:213 <> lt_le
+R230:232 Coq.Init.Datatypes <> nat ind
+R240:243 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R245:248 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R244:244 Causality.preliminaries <> n var
+R249:249 Causality.preliminaries <> m var
+R236:238 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R235:235 Causality.preliminaries <> n var
+R239:239 Causality.preliminaries <> m var
+prf 270:276 <> ini_fin
+R292:294 Coq.Init.Datatypes <> nat ind
+R305:308 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R309:311 Coq.Init.Datatypes <> nat ind
+R302:304 Coq.Init.Datatypes <> nat ind
+R317:317 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R344:348 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R349:355 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R363:364 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R360:362 Coq.Init.Datatypes <> nat ind
+R376:378 Coq.Init.Datatypes <> nat ind
+R390:393 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R394:400 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R408:409 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R405:407 Coq.Init.Datatypes <> nat ind
+R416:419 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R411:414 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R410:410 Causality.preliminaries <> t var
+R415:415 Causality.preliminaries <> k var
+R423:425 Coq.Init.Logic <> :type_scope:x_'='_x not
+R420:420 Causality.preliminaries <> s var
+R422:422 Causality.preliminaries <> t var
+R426:426 Causality.preliminaries <> s var
+R428:428 Causality.preliminaries <> r var
+R386:388 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R385:385 Causality.preliminaries <> r var
+R389:389 Causality.preliminaries <> k var
+R329:331 Coq.Init.Datatypes <> nat ind
+R334:334 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R338:342 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R335:335 Causality.preliminaries <> s var
+R337:337 Causality.preliminaries <> m var
+R343:343 Causality.preliminaries <> n var
