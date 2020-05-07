@@ -1,0 +1,52 @@
+DIGEST 1768edc93746c918e021703f9df38f62
+FCausality.timer
+R15:24 Causality.causal_def <> <> lib
+R42:54 Causality.preliminaries <> <> lib
+inst 67:72 <> evenat
+R76:83 Causality.causal_def <> EventSet class
+R85:87 Coq.Init.Datatypes <> nat ind
+R113:127 Causality.causal_def <> synchronisation meth
+R94:103 Causality.causal_def <> precedence meth
+R108:109 Coq.Init.Peano <> lt def
+R132:133 Coq.Init.Logic <> eq ind
+R169:179 Causality.causal_def <> Irreflexive def
+R188:196 Causality.preliminaries <> lt_irrefl thm
+R188:196 Causality.preliminaries <> lt_irrefl thm
+R212:221 Coq.Sets.Relations_1 <> Transitive def
+R230:237 Causality.preliminaries <> lt_trans thm
+R230:237 Causality.preliminaries <> lt_trans thm
+R270:278 Coq.Sets.Relations_1 <> Reflexive def
+R307:316 Coq.Sets.Relations_1 <> Transitive def
+R395:403 Coq.Sets.Relations_1 <> Symmetric def
+prf 548:560 <> Botnat_ininat
+R575:577 Coq.Init.Datatypes <> nat ind
+R589:591 Coq.Init.Logic <> :type_scope:x_'='_x not
+R580:582 Causality.causal_def <> Bot def
+R588:588 Causality.timer <> n var
+R584:586 Coq.Init.Datatypes <> nat ind
+R592:597 Causality.preliminaries <> ininat def
+R599:599 Causality.timer <> n var
+R629:652 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R654:656 Coq.Init.Datatypes <> nat ind
+R629:652 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R654:656 Coq.Init.Datatypes <> nat ind
+R806:809 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R810:810 Coq.Init.Datatypes <> S constr
+R806:809 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R810:810 Coq.Init.Datatypes <> S constr
+R862:869 Causality.preliminaries <> le_trans thm
+R874:874 Coq.Init.Datatypes <> S constr
+R862:869 Causality.preliminaries <> le_trans thm
+R874:874 Coq.Init.Datatypes <> S constr
+inst 1127:1132 <> caunat
+R1136:1141 Causality.causal_def <> Causet class
+R1143:1145 Coq.Init.Datatypes <> nat ind
+R1189:1189 Coq.Init.Datatypes <> S constr
+R1189:1189 Coq.Init.Datatypes <> S constr
+R1208:1211 Coq.Init.Peano <> le_n constr
+R1208:1211 Coq.Init.Peano <> le_n constr
+R1233:1245 Causality.timer <> Botnat_ininat thm
+R1233:1245 Causality.timer <> Botnat_ininat thm
+R1233:1245 Causality.timer <> Botnat_ininat thm
+R1254:1263 Causality.preliminaries <> fin_ininat thm
+R1254:1263 Causality.preliminaries <> fin_ininat thm

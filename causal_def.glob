@@ -1,143 +1,98 @@
-DIGEST 7d666680763b0dc130b784dffb491238
+DIGEST 5292299e2f306e79be5681d159b177f4
 FCausality.causal_def
 R15:34 Coq.Sets.Relations_1 <> <> lib
-R52:64 Causality.preliminaries <> <> lib
-sec 259:271 <> AuxiliaryDefs
-var 283:283 AuxiliaryDefs U
-def 307:317 <> Irreflexive
-R324:331 Coq.Sets.Relations_1 <> Relation def
-R333:333 Causality.causal_def <> AuxiliaryDefs.U var
-R357:357 Causality.causal_def <> AuxiliaryDefs.U var
-R360:361 Coq.Init.Logic <> :type_scope:'~'_x not
-R362:362 Causality.causal_def <> R var
-R366:366 Causality.causal_def <> x var
-R364:364 Causality.causal_def <> x var
-def 382:389 <> sequence
-R397:400 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R401:401 Causality.causal_def <> AuxiliaryDefs.U var
-R394:396 Coq.Init.Datatypes <> nat ind
-R409:421 Causality.causal_def AuxiliaryDefs <> sec
-sec 433:441 <> CausalDef
-var 453:453 CausalDef U
-rec 472:477 <> Causal
-proj 501:510 <> precedence
-proj 574:588 <> synchronisation
-proj 753:773 <> constraint_precedence
-proj 846:871 <> constraint_synchronisation
-proj 913:933 <> constraint_congruence
-proj 1016:1033 <> constraint_fincaus
-R495:495 Causality.causal_def <> CausalDef.U var
-R514:521 Coq.Sets.Relations_1 <> Relation def
-R523:527 Causality.causal_def <> event meth
-R554:563 Causality.causal_def <> precedence meth
-R592:599 Coq.Sets.Relations_1 <> Relation def
-R601:605 Causality.causal_def <> event meth
-R633:647 Causality.causal_def <> synchronisation meth
-R681:685 Causality.causal_def <> event meth
-R696:699 Coq.Init.Logic <> :type_scope:x_'\/'_x not
-R691:694 Causality.causal_def CausalDef ::x_'<<'_x not
-R690:690 Causality.causal_def <> x var
-R695:695 Causality.causal_def <> y var
-R701:705 Causality.causal_def CausalDef ::x_'=*='_x not
-R700:700 Causality.causal_def <> x var
-R706:706 Causality.causal_def <> y var
-R734:742 Causality.causal_def <> causality meth
-R810:813 Coq.Init.Logic <> :type_scope:x_'/\'_x not
-R782:792 Causality.causal_def <> Irreflexive def
-R800:809 Causality.causal_def <> precedence meth
-R794:798 Causality.causal_def <> event meth
-R814:823 Coq.Sets.Relations_1 <> Transitive def
-R831:840 Causality.causal_def <> precedence meth
-R825:829 Causality.causal_def <> event meth
-R875:885 Coq.Sets.Relations_1 <> Equivalence ind
-R893:907 Causality.causal_def <> synchronisation meth
-R887:891 Causality.causal_def <> event meth
-R956:960 Causality.causal_def <> event meth
-R977:980 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R989:992 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R999:1002 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R1005:1008 Causality.causal_def CausalDef ::x_'<<'_x not
-R1003:1004 Causality.causal_def <> x' var
-R1009:1010 Causality.causal_def <> y' var
-R994:997 Causality.causal_def CausalDef ::x_'<<'_x not
-R993:993 Causality.causal_def <> x var
-R998:998 Causality.causal_def <> y var
-R982:986 Causality.causal_def CausalDef ::x_'=*='_x not
-R981:981 Causality.causal_def <> y var
-R987:988 Causality.causal_def <> y' var
-R970:974 Causality.causal_def CausalDef ::x_'=*='_x not
-R969:969 Causality.causal_def <> x var
-R975:976 Causality.causal_def <> x' var
-R1049:1053 Causality.causal_def <> event meth
-R1061:1068 Causality.causal_def <> sequence def
-R1070:1074 Causality.causal_def <> event meth
-R1084:1084 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R1112:1116 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R1117:1123 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R1131:1132 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R1128:1130 Coq.Init.Datatypes <> nat ind
-R1144:1146 Coq.Init.Datatypes <> nat ind
-R1162:1165 Coq.Init.Logic <> :type_scope:x_'->'_x not
-R1166:1172 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R1180:1181 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R1177:1179 Coq.Init.Datatypes <> nat ind
-R1188:1191 Coq.Init.Logic <> :type_scope:x_'/\'_x not
-R1183:1186 Coq.Init.Peano <> :nat_scope:x_'<='_x not
-R1182:1182 Causality.causal_def <> r var
-R1187:1187 Causality.causal_def <> m var
-R1195:1197 Coq.Init.Logic <> :type_scope:x_'='_x not
-R1192:1192 Causality.causal_def <> s var
-R1194:1194 Causality.causal_def <> r var
-R1198:1198 Causality.causal_def <> s var
-R1200:1200 Causality.causal_def <> k var
-R1158:1160 Coq.Init.Peano <> :nat_scope:x_'>'_x not
-R1157:1157 Causality.causal_def <> k var
-R1161:1161 Causality.causal_def <> m var
-R1096:1098 Coq.Init.Datatypes <> nat ind
-R1101:1101 Causality.causal_def CausalDef ::x_'<<='_x not
-R1105:1110 Causality.causal_def CausalDef ::x_'<<='_x not
-R1102:1102 Causality.causal_def <> s var
-R1104:1104 Causality.causal_def <> n var
-R1111:1111 Causality.causal_def <> x var
-R1212:1220 Causality.causal_def CausalDef <> sec
-R1246:1255 Causality.causal_def <> precedence meth
-not 1233:1233 <> ::x_'<<'_x
-R1286:1300 Causality.causal_def <> synchronisation meth
-not 1272:1272 <> ::x_'=*='_x
-R1331:1339 Causality.causal_def <> causality meth
-not 1317:1317 <> ::x_'<<='_x
-inst 1357:1361 <> timer
-R1365:1370 Causality.causal_def <> Causal class
-R1372:1374 Coq.Init.Datatypes <> nat ind
-R1420:1434 Causality.causal_def <> synchronisation meth
-R1381:1390 Causality.causal_def <> precedence meth
-R1405:1407 Coq.Init.Datatypes <> nat ind
-R1413:1415 Coq.Init.Peano <> :nat_scope:x_'<'_x not
-R1412:1412 Causality.causal_def <> x var
-R1416:1416 Causality.causal_def <> y var
-R1449:1451 Coq.Init.Datatypes <> nat ind
-R1457:1459 Coq.Init.Logic <> :type_scope:x_'='_x not
-R1456:1456 Causality.causal_def <> x var
-R1460:1460 Causality.causal_def <> y var
-R1483:1493 Causality.causal_def <> Irreflexive def
-R1496:1505 Coq.Sets.Relations_1 <> Transitive def
-R1537:1545 Causality.preliminaries <> lt_irrefl prfax
-R1537:1545 Causality.preliminaries <> lt_irrefl prfax
-R1560:1567 Causality.preliminaries <> lt_trans prfax
-R1560:1567 Causality.preliminaries <> lt_trans prfax
-R1600:1608 Coq.Sets.Relations_1 <> Reflexive def
-R1637:1646 Coq.Sets.Relations_1 <> Transitive def
-R1702:1710 Coq.Sets.Relations_1 <> Symmetric def
-R1827:1834 Causality.causal_def <> sequence def
-R1870:1872 Coq.Init.Datatypes <> nat ind
-R1878:1881 Coq.Init.Peano <> :nat_scope:x_'<='_x not
-R1877:1877 Causality.causal_def <> n var
-R1870:1872 Coq.Init.Datatypes <> nat ind
-R1878:1881 Coq.Init.Peano <> :nat_scope:x_'<='_x not
-R1877:1877 Causality.causal_def <> n var
-R1950:1954 Causality.preliminaries <> lt_le prfax
-R1950:1954 Causality.preliminaries <> lt_le prfax
-R1995:1998 Coq.Init.Peano <> le_n constr
-R1995:1998 Coq.Init.Peano <> le_n constr
-R2013:2019 Causality.preliminaries <> ini_fin prfax
-R2013:2019 Causality.preliminaries <> ini_fin prfax
+R52:69 Coq.Sets.Ensembles <> <> lib
+R87:106 Coq.Sets.Finite_sets <> <> lib
+sec 282:294 <> AuxiliaryDefs
+var 306:306 AuxiliaryDefs U
+def 330:340 <> Irreflexive
+R347:354 Coq.Sets.Relations_1 <> Relation def
+R356:356 Causality.causal_def <> AuxiliaryDefs.U var
+R380:380 Causality.causal_def <> AuxiliaryDefs.U var
+R383:384 Coq.Init.Logic <> :type_scope:'~'_x not
+R385:385 Causality.causal_def <> R var
+R389:389 Causality.causal_def <> x var
+R387:387 Causality.causal_def <> x var
+R397:409 Causality.causal_def AuxiliaryDefs <> sec
+rec 419:426 <> EventSet
+proj 457:466 <> precedence
+proj 523:537 <> synchronisation
+proj 695:707 <> ax_precedence
+proj 773:789 <> ax_syncronisation
+proj 829:842 <> ax_pre_synchro
+R453:453 Causality.causal_def <> U var
+R470:477 Coq.Sets.Relations_1 <> Relation def
+R479:483 Causality.causal_def <> event meth
+R505:514 Causality.causal_def <> precedence meth
+R541:548 Coq.Sets.Relations_1 <> Relation def
+R550:554 Causality.causal_def <> event meth
+R580:594 Causality.causal_def <> synchronisation meth
+R626:630 Causality.causal_def <> event meth
+R642:645 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R636:640 Causality.causal_def <> ::x_'*->'_x not
+R635:635 Causality.causal_def <> x var
+R641:641 Causality.causal_def <> y var
+R647:651 Causality.causal_def <> ::x_'*=*'_x not
+R646:646 Causality.causal_def <> x var
+R652:652 Causality.causal_def <> y var
+R678:686 Causality.causal_def <> causality meth
+R739:742 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R711:721 Causality.causal_def <> Irreflexive def
+R729:738 Causality.causal_def <> precedence meth
+R723:727 Causality.causal_def <> event meth
+R743:752 Coq.Sets.Relations_1 <> Transitive def
+R760:769 Causality.causal_def <> precedence meth
+R754:758 Causality.causal_def <> event meth
+R793:803 Coq.Sets.Relations_1 <> Equivalence ind
+R811:825 Causality.causal_def <> synchronisation meth
+R805:809 Causality.causal_def <> event meth
+R865:869 Causality.causal_def <> event meth
+R884:887 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R896:899 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R907:910 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R913:917 Causality.causal_def <> ::x_'*->'_x not
+R911:912 Causality.causal_def <> x' var
+R918:919 Causality.causal_def <> y' var
+R901:905 Causality.causal_def <> ::x_'*->'_x not
+R900:900 Causality.causal_def <> x var
+R906:906 Causality.causal_def <> y var
+R889:893 Causality.causal_def <> ::x_'*=*'_x not
+R888:888 Causality.causal_def <> y var
+R894:895 Causality.causal_def <> y' var
+R877:881 Causality.causal_def <> ::x_'*=*'_x not
+R876:876 Causality.causal_def <> x var
+R882:883 Causality.causal_def <> x' var
+R948:957 Causality.causal_def <> precedence meth
+not 934:934 <> ::x_'*->'_x
+R988:1002 Causality.causal_def <> synchronisation meth
+not 974:974 <> ::x_'*=*'_x
+R1033:1041 Causality.causal_def <> causality meth
+not 1019:1019 <> ::x_'*=>'_x
+sec 1058:1063 <> Causet
+var 1075:1075 Causet U
+R1095:1102 Causality.causal_def <> EventSet class
+R1104:1104 Causality.causal_def <> Causet.U var
+def 1122:1124 <> Bot
+R1131:1135 Causality.causal_def <> event meth
+R1140:1147 Coq.Sets.Ensembles <> Ensemble def
+R1149:1153 Causality.causal_def <> event meth
+R1166:1170 Causality.causal_def <> event meth
+R1176:1180 Causality.causal_def <> ::x_'*=>'_x not
+R1175:1175 Causality.causal_def <> y var
+R1181:1181 Causality.causal_def <> x var
+rec 1193:1198 <> Causet
+proj 1207:1217 <> ax_liveness
+proj 1271:1282 <> ax_fincaused
+R1232:1236 Causality.causal_def <> event meth
+R1239:1245 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1256:1257 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1251:1255 Causality.causal_def <> event meth
+R1259:1263 Causality.causal_def <> ::x_'*->'_x not
+R1258:1258 Causality.causal_def <> x var
+R1264:1265 Causality.causal_def <> x' var
+R1297:1301 Causality.causal_def <> event meth
+R1304:1309 Coq.Sets.Finite_sets <> Finite ind
+R1318:1320 Causality.causal_def <> Bot def
+R1322:1322 Causality.causal_def <> x var
+R1311:1315 Causality.causal_def <> event meth
+R1335:1340 Causality.causal_def Causet <> sec
