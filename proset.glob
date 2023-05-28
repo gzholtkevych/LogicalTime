@@ -1,0 +1,46 @@
+DIGEST eeb4718be25768fb1e70cf9f6794bd98
+FCausality.proset
+R15:34 Coq.Sets.Relations_1 <> <> lib
+R52:59 Causality.notation <> <> lib
+def 74:84 <> Irreflexive
+R101:108 Coq.Sets.Relations_1 <> Relation def
+R110:110 Causality.proset <> U var
+R136:136 Causality.proset <> U var
+R139:140 Coq.Init.Logic <> :type_scope:'~'_x not
+R141:141 Causality.proset <> R var
+R145:145 Causality.proset <> x var
+R143:143 Causality.proset <> x var
+rec 155:164 <> Preordered
+proj 196:199 <> prec
+proj 221:230 <> pre_constr
+R192:192 Causality.proset <> U var
+R203:210 Coq.Sets.Relations_1 <> Relation def
+R212:217 Causality.proset <> proset meth
+R234:241 Coq.Sets.Relations_1 <> Preorder ind
+R250:253 Causality.proset <> prec meth
+R243:248 Causality.proset <> proset meth
+R288:295 Coq.Sets.Relations_1 <> Relation def
+R297:302 Causality.proset <> proset meth
+R326:329 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R318:321 Causality.proset <> prec meth
+R325:325 Causality.proset <> y var
+R323:323 Causality.proset <> x var
+R330:333 Causality.proset <> prec meth
+R337:337 Causality.proset <> x var
+R335:335 Causality.proset <> y var
+R348:355 Coq.Sets.Relations_1 <> Relation def
+R357:362 Causality.proset <> proset meth
+R386:389 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R378:381 Causality.proset <> prec meth
+R385:385 Causality.proset <> y var
+R383:383 Causality.proset <> x var
+R390:391 Coq.Init.Logic <> :type_scope:'~'_x not
+R392:395 Causality.proset <> prec meth
+R399:399 Causality.proset <> x var
+R397:397 Causality.proset <> y var
+R427:430 Causality.proset <> prec meth
+not 414:414 <> ::x_'<<'_x
+R460:463 Causality.proset <> same meth
+not 447:447 <> ::x_'=='_x
+R492:495 Causality.proset <> less meth
+not 480:480 <> ::x_'<'_x

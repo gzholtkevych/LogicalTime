@@ -1,6 +1,9 @@
 -R . Causality
 -arg -w
 -arg all
+notation.v
+proset.v
+proset_facts.v
 causal_def.v
 preliminaries.v
 timer.v

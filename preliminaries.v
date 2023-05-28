@@ -1,6 +1,14 @@
 Require Import Coq.Sets.Ensembles.
 Require Import Coq.Sets.Finite_sets.
 
+Lemma disj_conj : forall A B C : Prop, A \/ B /\ C <-> (A \/ B) /\ (A \/ C).
+Proof.
+  intros. split; intro H1.
+  - split; elim H1; intro H2; (left; assumption) || (right; apply H2).
+  - destruct H1 as [H11 H12]. elim H11; elim H12; intros H13 H14;
+    (left; assumption) || right. split; assumption.
+Qed.
+
 
 Lemma Sn_n : forall n : nat, ~ S n = n.
 Proof.
